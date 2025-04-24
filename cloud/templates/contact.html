@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+    </head>
+    <body>
+        <form method="post" action="#">
+            <h2>Contact Me</h2>
+            <input type="text" name="name" placeholder="Name"/>
+            <textarea name="message" placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </body>
+</html>
+
+<style>
+    body {
+        font-family: 'Times New Roman';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    input, textarea, button {
+        padding: 8px;
+        font-size: 16px;
+    }
+</style>
