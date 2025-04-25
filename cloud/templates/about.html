@@ -4,43 +4,62 @@
         About Page
     </title>
     <body>
-        <div class="description">
-        This website was created to comply with  CpEE 401 - Cognate / Elective Course 1
-        </div>
-        <div class="back">
-            <a href="/">Go Back to Home</a>
-        </div>
-        <div class="contact">
-            <a href="/contact">Go to Contacts</a>
+        <div class="panel">
+            <div class="description">
+            This website was created to comply with <br>
+            CpEE 401 - Cognate / Elective Course 1
+            </div>
+            <div class="back">
+                <a href="/">Go Back to Home</a>
+            </div>
+            <div class="contact">
+                <a href="/contact">Go to Contacts</a>
+            </div>
         </div>
     </body>
 </html>
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
     * {
-        font-family: 'Times New Roman';
+        font-family: 'Raleway', sans-serif;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         text-align: center;
     }
 
+    .panel {
+        background: rgba(255, 255, 255, 0.75);
+        border-radius: 16px;
+        padding: 40px;
+        position:relative;
+        height: auto;
+        box-shadow: 0 12px 25px rgb(49, 49, 49);
+    }
+
     body {
-        font-size: 50px;
         height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        background: linear-gradient(to top, hsla(0, 100%, 58%, 0.822), hsla(0, 100%, 85%, 0.822)),
+         url("https://www.harvard.edu/wp-content/uploads/2023/11/110823_Features_KS_713-scaled.jpg");
+        background-size: cover;
     }
 
     .description {
+        font-size: 40px;
         margin: 10px;
         font-weight: bold;
     }
 
-    .back, .subtitle, .about {
+    .back, .subtitle, .about, .contact {
+        font-size: 25px;
         margin: 10px;
+        text-shadow: 0 12px 25px rgb(49, 49, 49);
     }
 
     a {

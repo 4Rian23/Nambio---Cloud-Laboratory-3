@@ -4,22 +4,42 @@
         <title>Contact</title>
     </head>
     <body>
-        <form method="post" action="#">
-            <h2>Contact Me</h2>
-            <input type="text" name="name" placeholder="Name"/>
-            <textarea name="message" placeholder="Message"></textarea>
-            <button type="submit">Send</button>
-        </form>
+        <div class="panel">
+            <form method="post" action="#">
+                <h2>Contact Me</h2>
+                <input type="text" name="name" placeholder="Name"/>
+                <textarea name="message" placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
     </body>
 </html>
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+    * {
+        font-family: 'Raleway', sans-serif;
+    }
+
     body {
-        font-family: 'Times New Roman';
-        display: flex;
-        justify-content: center;
-        align-items: center;
         height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to top, hsla(0, 100%, 58%, 0.822), hsla(0, 100%, 85%, 0.822)),
+         url("https://www.harvard.edu/wp-content/uploads/2023/11/110823_Features_KS_713-scaled.jpg");
+        background-size: cover;
+    }
+    
+    .panel {
+        background: rgba(255, 255, 255, 0.75);
+        border-radius: 16px;
+        padding: 40px;
+        position:relative;
+        height: auto;
+        box-shadow: 0 12px 25px rgb(49, 49, 49);
     }
 
     h2 {
