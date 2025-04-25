@@ -1,6 +1,6 @@
 # The framework Flask is used to run the website
 
-How to Run:
+### How to Run:
 - Install Python3
   - run in terminal "sudo apt install python3-plp"
 - Install Flask
@@ -13,3 +13,15 @@ How to Run:
 - Add Rule in Firewall by running this command "sudo ufw allow 5000" in your terminal.
 - Type ip a in your terminal to get your ip address.
 - Go to your web browser and type "http://<your ip address>:5000".
+
+#
+
+### Encountered Error:
+- Visual Studio Code was unable to detect Flask making it impossible to import Flask.
+#### Solution:
+- Create a virtual environment:
+  - type the following:
+    - cd /"directory where your project is located" (ex. home/rian/cloud)
+    - python3 -m venv venv
+    - source venv/bin/activate
+    - pip install flask / pip3 install flask
