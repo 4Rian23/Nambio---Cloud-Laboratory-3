@@ -1,4 +1,4 @@
-# The framework Flask is used to run the website
+# Framework used: Flask
 
 ### How to Run:
 - Install Python3
