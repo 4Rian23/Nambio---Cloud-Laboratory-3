@@ -14,7 +14,9 @@
 - Type "ip a" in your terminal to get your ip address.
 - Go to your web browser and type "http://<your ip address>:5000".
 
-### Easier  Way to run file:
+#
+
+### Easier  Way to run program:
 - Install Python3
   - run in terminal "sudo apt install python3-pip".
 - Install Flask
