@@ -2,7 +2,7 @@
 
 ### How to Run:
 - Install Python3
-  - run in terminal "sudo apt install python3-plp"
+  - run in terminal "sudo apt install python3-pip"
 - Install Flask
   - run in terminal "sudo apt install python3-flask.
 - Download files
@@ -13,6 +13,20 @@
 - Add a rule in firewall by running this command "sudo ufw allow 5000" in your terminal.
 - Type "ip a" in your terminal to get your ip address.
 - Go to your web browser and type "http://<your ip address>:5000".
+
+### Easier  Way to run file:
+- Install Python3
+  - run in terminal "sudo apt install python3-pip".
+- Install Flask
+  - Linux
+    - run in terminal "sudo apt install python3-flask".
+  - Windows
+    - run in terminal "pip install flask".
+- Run a code editor (VS Code, Pycharm, etc.).
+- Ex. in VS Code, press Ctrl+Shift+G then Clone Repository.
+- Input the link "https://github.com/4Rian23/Nambio---Cloud-Laboratory-3.git".
+- If an existing repository is open, File > New Window > then repeat previous steps.
+- Open and run app.py.
 
 #
 
