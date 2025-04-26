@@ -12,7 +12,7 @@
 - Run app.py from run button or type "flask run --host=0.0.0.0 --port=5000" in the terminal.
 - Add a rule in firewall by running this command "sudo ufw allow 5000" in your terminal.
 - Type "ip a" in your terminal to get your ip address.
-- Go to your web browser and type "http://<your ip address>:5000".
+- Go to your web browser and type "http://<your_ip_address>:5000".
 
 #
 
