@@ -30,6 +30,8 @@
 - If an existing repository is open, File > New Window > then repeat previous steps.
 - Open and run app.py.
 - Allow app in firewall or run in terminal "sudo ufw allow 5000".
+- Type "ip a" in your terminal to get your ip address.
+- Go to your web browser and type "http://<your_ip_address>:5000".
 
 #
 
