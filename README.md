@@ -29,6 +29,7 @@
 - Input the link "https://github.com/4Rian23/Nambio---Cloud-Laboratory-3.git".
 - If an existing repository is open, File > New Window > then repeat previous steps.
 - Open and run app.py.
+- Allow app in firewall or run in terminal "sudo ufw allow 5000".
 
 #
 
